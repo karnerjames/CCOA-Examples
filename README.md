@@ -8,10 +8,11 @@ sources supporting the program so while the program has closed for a period of a
 accepting applications and actively providing assistance.
 
 This script cleans and formats the data from the 2 main reports from the RAP data system. One report includes all applications
-ever submitted, the other report shows applications submitted (deemed complete and ready for review) based on a specified 
-timeframe (I run through the beginning of previous year). The script cleans the two datasets in a way that calculates new
+ever submitted, the other report shows "completed" applications submitted (deemed complete and ready for review) for a specified 
+timeframe (I run through the beginning of previous year). This script cleans the two datasets in a way that calculates new
 fields and formats for easier/better visuals in a PowerBI dashboard that includes calculations for number of applications 
 by month, bi-weekly, and weekly and by location/employee as well as financial/spending estimates and processing times for
-application approval and/or rejection. The dashboard is able to be updated daily using this script to clean the reports
-pulled from the program system and then refreshing PowerBI visuals. The dashboard is used internally by program staff as 
-well as upper management and the DFSS commissioner.
+application approval and/or rejection. There is also a section creating a calendar to be used in power BI that excludes
+weekends and City of Chicago holidays, among other elements for accurate calculations and reporting.The dashboard is able 
+to be updated daily using this script to clean the reports pulled from the program system and then refreshing PowerBI visuals. 
+The dashboard is used internally by program staff as well as upper management and the DFSS commissioner.
